@@ -14,12 +14,11 @@ Font: JetBrainsMonoNL Nerd Font Mono (Light)
 ** The GUI version of VIM includes clipboard features builtin. This is helpfull even in terminal enviroments.
 * lsd
 ** LS but detailed and with icons!
-* pip
 
-# Recommended Python Plugins
-## All
-* For tmux-window-name
 ```
-python3 -m pip install --user libtmux
-python3 -m pip install dataclasses --user
+ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+```
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 ```
