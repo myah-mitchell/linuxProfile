@@ -21,6 +21,7 @@ tags
 # Local Files
 .aliases.local
 .vimrc.local
+.bashrc.local
 .local
 .bash_history
 .bash_history
@@ -31,3 +32,4 @@ tags
 .vim
 .viminfo
 .ssh
+.keychain
