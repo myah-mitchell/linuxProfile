@@ -35,6 +35,8 @@ stty -ixon
 [ -f "${HOME}/.aliases" ] && source "${HOME}/.aliases"
 [ -f "${HOME}/.aliases.local" ] && source "${HOME}/.aliases.local"
 
+# Load local bashrc if it exist.
+[ -f "${HOME}/.bashrc.local" ] && source "${HOME}/.bashrc.local"
 
 # Add an "alert" alias for long running commands.  Use like so:
 #   sleep 10; alert
