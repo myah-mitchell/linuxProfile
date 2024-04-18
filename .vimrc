@@ -70,6 +70,9 @@ Plug 'vim-scripts/AutoComplPop'
 " Tmux nav
 Plug 'christoomey/vim-tmux-navigator'
 
+" Allow copy to system clipboard across SSH
+Plug 'fcpg/vim-osc52'
+
 " Languages and file types.
 Plug 'cakebaker/scss-syntax.vim'
 Plug 'chr4/nginx.vim'
@@ -532,6 +535,11 @@ let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'catppuccin_mocha'
+
+" .............................................................................
+" fcpg/vim-osc52
+" .............................................................................
+vmap <C-c> y:Oscyank<cr>
 
 " .............................................................................
 " Host specific settings
