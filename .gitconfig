@@ -6,3 +6,7 @@
 
 [include]
 	path = ~/.gitconfig.user
+
+[alias]
+    st = status
+    ci = commit -v
