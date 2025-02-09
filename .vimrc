@@ -156,13 +156,13 @@ let maplocalleader=" "
 set autoindent
 set autoread
 set backspace=indent,eol,start
-set backupdir=/tmp//,.
+set backupdir=~/.vim/tmp//,.
 set clipboard=unnamedplus
 set colorcolumn=80
 set complete+=kspell
 set completeopt=menuone,longest
 set cursorline
-set directory=/tmp//,.
+set directory=~/.vim/tmp//,.
 set encoding=utf-8
 set expandtab smarttab
 set formatoptions=tcqrn1
@@ -205,7 +205,7 @@ set ttyfast
 if !has('nvim')
   set ttymouse=sgr
 endif
-set undodir=/tmp
+set undodir=~/.vim/tmp
 set undofile
 set virtualedit=block
 set whichwrap=b,s,<,>
