@@ -8,5 +8,12 @@
 	path = ~/.gitconfig.user
 
 [alias]
-    st = status
-    ci = commit -v
+	st = status
+	ci = commit -v
+	co = checkou
+	di = diff
+	br = branch
+	st = status
+	hist = log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short
+	type = cat-file -t
+	dump = cat-file -p
